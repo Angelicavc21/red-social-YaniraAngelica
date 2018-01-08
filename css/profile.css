@@ -14,3 +14,17 @@
   border: 2px solid #7B1FA2;
   border-radius: 5px;
 }
+
+.amber {
+  box-shadow: 3px 3px 15px #FFA000 inset;
+}
+
+/*  perfil*/
+.user-image {
+  margin: auto;
+  width: 20%;
+}
+
+.container-user {
+  padding-top: 25px;
+}

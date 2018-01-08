@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-
-
-$(".dropdown-button").dropdown();
-=======
 $(document).ready(begin());
 
 function begin() {
@@ -18,4 +13,3 @@ function begin() {
     stopPropagation: false // Stops event propagation
   });
 }
->>>>>>> 3e99372f9ebfecc769669074718ef1cd48891461
