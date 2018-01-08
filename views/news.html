@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <title>News</title>
+  <link rel="stylesheet" href="../vendors/materialize/css/materialize.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../css/news.css">
 </head>
@@ -23,13 +23,72 @@
       <li><a href="sas.html">Noticias</a></li>
       <li><a href="badgs.html">Herramientas</a></li>
       <!-- Dropdown Trigger -->
-      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">expand_more</i></a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right">expand_more</i></a></li>
     </ul>
   </div>
 </nav>
+<div>
+<ul id="slide-out" class="side-nav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="../assets/images/paisaje1.jpg">
+      </div>
+      <a href="#!user"><img class="circle" src="../assets/images/usuario.jpg"></a>
+      <a href="#!name"><span class="white-text name">John Doe</span></a>
+      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div>
+   </li>
+   <!--¡Cuentanos como te va hoy!-->
+    <li><a href="#!"><i class="material-icons">mood</i>¡Cuentanos como te va hoy!</a></li>
+    <div class="post">
+        <textarea id="text" rows="2" placeholder="¿Qué esta pasando?"></textarea>
+        <button id="btn" type="button" name="btn">Publicar</button>
+        <span class="counter"></span>
+      </div>
+      <div class="container-publicar">
+      </div>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+</div>
+<!--filtrado-->
+  <label>Filtrar por</label>
+  <select class="browser-default">
+    <option value="" disabled selected>Choose your option</option>
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
 
+  <section id="publics">
+      <div id="user-publicar">
+        <div class="border-circle">
+          <i class="person"></i>
+        </div>
+        <form action="">
+          <textarea name="publicar-user" id="publicar" placeholder="¿Qué está pasando?"></textarea>
+          <span id="btn-publicar">Publicar</span>
+        </form>
+      </div>
+    </section>
+    <section>
+      <div class="options">
+          <div class="fixed-action-btn horizontal click-to-toggle">
+              <a class="btn-floating btn-large red">
+                <i class="material-icons">menu</i>
+              </a>
+              <ul>
+                <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+              </ul>
+            </div>
+      </div>
+    </section>
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="../vendors/materialize/js/materialize.js"></script>
 <script src="../js/news.js"></script>
 </body>
 </html>

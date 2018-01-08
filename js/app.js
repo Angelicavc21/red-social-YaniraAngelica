@@ -1,3 +1,4 @@
+$(".dropdown-button").dropdown();
 // efecto splash
 $(document).ready(function() {
   setTimeout (function() {

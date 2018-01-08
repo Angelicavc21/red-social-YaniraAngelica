@@ -1,0 +1,66 @@
+
+/* style SECTION COMPARTIR*/
+
+#publics {
+  width: 40%;
+  margin-top: 10vh;
+}
+
+#user-publicar {
+  left: 90.5%;
+  background-color: #E8F4FB;
+  position: relative;
+  width: 500px;
+}
+
+#user-publicar>div {
+  background-color: #EFEFEF;
+  border: 1px solid #ffffff;
+  margin-left: 5%;
+  padding: 2% 2.5%;
+  position: absolute;
+  top: 5%;
+}
+
+#user-publicar>form {
+  left: 12.5%;
+  bottom: 10%;
+  position: relative;
+  width: 400px;
+  top: 0;
+
+}
+
+#user-publicar>form>textarea {
+  border: 1px solid #c6e4f7;
+  border-radius: 10px;
+  min-height: 15vh;
+  margin-top: 2vh; 
+  outline: none;
+  overflow: hidden;
+  padding: 2%;
+  padding-right: 5%; 
+  resize: none;
+  width: 100%;
+}
+
+
+#user-publicar>form>span#btn-publicar {
+  background-color: #52b8f3;
+  border: 1px solid #52b8f3;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 340px;
+  margin-bottom: 2%;
+  padding: 2% 3%;
+}
+
+/**/
+
+.options {
+  position: absolute; 
+  margin-top: 19px;
+}
