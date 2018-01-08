@@ -1,0 +1,16 @@
+#8ACB25 - Verde amarillento
+#61C531
+#D0E65F - Amarillo verdoso
+
+724677 y F38627 o B5D8BA
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*  header*/
+.border-nav {
+  border: 2px solid #7B1FA2;
+  border-radius: 5px;
+}
