@@ -32,8 +32,8 @@ Se dividió el trabajo en etapas, las cuales se detallaron así:
 - Se aplicó Firebase para almacenar la información de las publicaciones y del chat del usuario en una base de datos.
 
 ## webSite
-* Puede ver el [Proyecto en vivo]
-(`aquí´)
+* Aquí se puede ver el Proyecto 
+(`https://angelicavc21.github.io/red-social-YaniraAngelica/´)
 
 ## Desarrollado con:
 
