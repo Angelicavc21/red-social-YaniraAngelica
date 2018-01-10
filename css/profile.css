@@ -12,6 +12,15 @@
 .purple {
   box-shadow: 2px 2px 1px 1px #6a1b9a inset;
 }
+/* Logo Team */
+nav .brand-logo {
+  font-family: 'Cabin Sketch', cursive;
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 4.1rem;
+  padding: 0;
+}
 
 /*  perfil*/
 .img-user {

@@ -19,3 +19,8 @@
   background-size: content;
   background-position: center;
 }
+
+.brand-logo {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: none;
+} 

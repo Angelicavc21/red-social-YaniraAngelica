@@ -9,6 +9,6 @@ jQuery(document).ready(function() {
     'border-width': 5
   }, 1800);
   setTimeout(function() {
-    window.location.href = 'views/home.html';
+    window.location.href = 'views/login.html';
   }, 3000);
 });

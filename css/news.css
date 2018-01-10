@@ -13,6 +13,11 @@
   box-shadow: 2px 2px 1px 1px #6a1b9a inset;
 }
 
+/* Logo Team */
+.brand-logo {
+  font-family: 'Cabin Sketch', cursive;
+} 
+
 /*barra de perfil*/
 .card-panel {
   width: 100%;
