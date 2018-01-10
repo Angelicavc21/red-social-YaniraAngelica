@@ -1,0 +1,21 @@
+.photo-url {
+  width: 100px;
+}
+
+.images-login-2 {
+  background-image: url(../assets/images/1-login.png);
+  background-size: content;
+  background-position: center;
+}
+
+.images-login-1 {
+  background-image: url(../assets/images/2-login.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+.images-login-3 {
+  background-image: url(../assets/images/3-login.jpg);
+  background-size: content;
+  background-position: center;
+}

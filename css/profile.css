@@ -1,14 +1,3 @@
-/*#8ACB25 - Verde amarillento
-#61C531
-#D0E65F - Amarillo verdoso
-
-724677 y F38627 o B5D8BA*/
-* {
-  box-sizing: content-box;
-  margin: 0;
-  padding: 0;
-}
-
 .capitalize {
   text-transform: capitalize;
 }
@@ -37,10 +26,10 @@
 
 .btn-follow {
   height: 35px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-transform: capitalize;
-  width: 60px;
+  width: 140px;
 }
 
 .tab {
@@ -71,4 +60,33 @@
   padding-top: 35px;
   position: relative;
   width: 90%;
+}
+
+.color-purple {
+  color: #4527A0;
+}
+
+.color-purple:hover {
+  border-radius: 5px;
+  box-shadow: 0.2px 0.3px 10px gray inset;
+  color: #7B1FA2;
+  padding: 3px;
+}
+
+.likes:hover {
+  border-radius: 5px;
+  box-shadow: 0.2px 0.3px 10px gray inset;
+  color: #7B1FA2;
+  padding: 3px;
+}
+
+/*color de texto en botones*/
+
+.text-color {
+  color: #ffff;
+}
+
+label.text-color::before {
+  border: 1.5px solid #ffff;
+  border-radius: 4px;
 }

@@ -13,18 +13,15 @@
   <header>
     <!-- Menú -->
     <nav class="purple darken-2">
-      <div class="row nav-wrapper">
+      <div class="container nav-wrapper">
         <a href="#!" class="brand-logo">Logo</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <div>
-          <div class="row">
-            <div class="col l12"></div>
-          </div>
           <ul class="right hide-on-med-and-down">
-            <li><a class="border-nav yellow accent-1 col l12 waves-effect waves-light btn">Noticias</a></li>
-            <li><a class="border-nav yellow accent-1 col l12 waves-effect waves-light btn">Herramientas</a></li>
-            <li><a class="border-nav yellow accent-1 col l12 waves-effect waves-light btn">Perfil</a></li>
-            <li><a class="border-nav yellow accent-1 col l12 waves-effect waves-light btn dropdown-button" data-beloworigin="true" href='#' data-activates='dropdown1'><i class="material-icons">arrow_drop_down_circle</i></a></li>
+            <li><a class="border-nav yellow accent-1 waves-effect waves-light btn">Noticias</a></li>
+            <li><a class="border-nav yellow accent-1 waves-effect waves-light btn">Herramientas</a></li>
+            <li><a class="border-nav yellow accent-1 waves-effect waves-light btn">Perfil</a></li>
+            <li><a class="border-nav yellow accent-1 waves-effect waves-light btn dropdown-button" data-beloworigin="true" href='#' data-activates='dropdown1'><i class="material-icons">arrow_drop_down_circle</i></a></li>
             <!-- Dropdown Structure -->
             <ul id='dropdown1' class='dropdown-content'>
               <li><a href="#!">Configuraciones</a></li>
@@ -41,9 +38,6 @@
             <li><a href="collapsible.html">Perfil</a></li>
             <li><a href="mobile.html">Salir</a></li>
           </ul>
-          <div class="row">
-            <div class="col l12"></div>
-          </div>
         </div>
       </div>
     </nav>
@@ -56,35 +50,38 @@
       </div>
       <div class="card-content">
         <span class="card-title activator grey-text text-darken-4">Nombre (nickname)</span>
-        <a class="btn-follow waves-effect waves-light btn">Seguir</a>
-        <a class="btn-follow waves-effect waves-light btn"><i class="material-icons">person_add</i></a>
+        <a id="follow" class="btn-follow waves-effect waves-light btn">
+          <form action="#">
+            <p>
+              <input type="checkbox" id="test5" />
+              <label class="text-color" for="test5">Siguiendo</label>
+            </p>
+          </form>
+        </a>
+        <a id="add-friend" class="btn-follow waves-effect waves-light btn">
+          <form action="#">
+            <p>
+              <input type="checkbox" id="test6" />
+              <label class="text-color" for="test6">Amigos</label>
+            </p>
+          </form>
+        </a>
       </div>
       <div class="row card-tabs">
         <ul class="tabs hide-on-small-only container scroll-hidden tabs-fixed-width">
-          <li class="tab"><a class="capitalize active" href="#test5">Información</a></li>
-          <li class="tab"><a class="capitalize" href="#test7">Progresos</a></li>
-          <li class="tab"><a class="capitalize" href="#test8">Amigos</a></li>
-          <li class="tab"><a class="capitalize" href="#test9">Fotos</a></li>
+          <li class="tab"><a class="capitalize active" href="#test7">Información</a></li>
+          <li class="tab"><a class="capitalize" href="#test8">Progresos</a></li>
+          <li class="tab"><a class="capitalize" href="#test9">Amigos</a></li>
+          <li class="tab"><a class="capitalize" href="#test10">Fotos</a></li>
         </ul>
         <ul class="hide-on-med-and-up tabs container scroll-hidden tabs-fixed-width">
-          <li class="tab"><a class="capitalize active" href="#test5"><i class="material-icons">contacts</i></a></li>
-          <li class="tab"><a class="capitalize" href="#test7"><i class="material-icons">trending_up</i></a></li>
-          <li class="tab"><a class="capitalize" href="#test8"><i class="material-icons">group</i></a></li>
-          <li class="tab"><a class="capitalize" href="#test9"><i class="material-icons">photo</i></a></li>
+          <li class="tab"><a class="capitalize active" href="#test7"><i class="material-icons">contacts</i></a></li>
+          <li class="tab"><a class="capitalize" href="#test8"><i class="material-icons">trending_up</i></a></li>
+          <li class="tab"><a class="capitalize" href="#test9"><i class="material-icons">group</i></a></li>
+          <li class="tab"><a class="capitalize" href="#test10"><i class="material-icons">photo</i></a></li>
         </ul>
       </div>
       <div class="card-content grey lighten-4">
-        <div id="test5">
-          <div class="card-info row">
-            <div class="col s12 l12">
-              <div class="card-panel teal">
-                <span class="white-text">
-
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
         <div id="test7">
           <div class="card-info row">
             <div class="col s12 l12">
@@ -118,6 +115,17 @@
             </div>
           </div>
         </div>
+        <div id="test10">
+          <div class="card-info row">
+            <div class="col s12 l12">
+              <div class="card-panel teal">
+                <span class="white-text">
+
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -128,12 +136,12 @@
         <form class="col l10 offset-l1 offset-s1 s10">
           <div class="row">
             <div class="input-field col l11 s11">
-              <i class="material-icons prefix">mode_edit</i>
+              <i class="color-purple material-icons prefix">mode_edit</i>
               <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
               <label for="icon_prefix2">¿Qué hay de nuevo?</label>
               <div class="row">
-                <span class="col l2 left"><i class="small material-icons">add_a_photo</i></span>
-                <button id="btn-post" class="col l2 right" type="button" name="button">Compartir</button>
+                <span class="col l2 left"><i class="color-purple small material-icons">add_a_photo</i></span>
+                <button id="btn-post" class="col l3 right waves-light btn" type="button" name="button">Compartir</button>
               </div>
             </div>
           </div>
@@ -146,6 +154,7 @@
   </section>
 
   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script src="../js/profile.js"></script>
 </body>

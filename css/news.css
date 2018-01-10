@@ -1,169 +1,66 @@
+
 /* style SECTION COMPARTIR*/
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-/* body {
-  background-image:url('../assets/images/paisaje2.jpg');
-  background-repeat: no-repeat;
-  size: cover;
-} */
-
-.border-circle {
-  border: 1px solid #5e5e5e;
-  border-radius: 50%;
-  padding: .5% .5%;
-}
-
-/* style SECTION USER*/
-
-#user {
-  background-color: #ffffff;
-  height: 25vh;
-  margin: 1%;
-  margin-left: 5%;
-  margin-top: 10vh;
-  position: relative;
-  width: 23%;
-}
-
-#user figure {
-  width: 100%;
-}
-
-#user figure img {
-  width: 100%;
-  height: 16vh;
-}
-
-#user div {
-  background-color: #EFEFEF; 
-  border: 1.5px solid #ffffff;
-  left: 3%;
-  padding: 8% 8.5%;
-  position: absolute;
-  bottom: 9%;
-}
-
-#user div i {
-  font-size: 20px;
-}
-
-#user>span>span {
-  font-weight: normal;
-  font-size: 14px;
-} 
-
-/* style SECTION TWEET*/
-
-#tweets {
+#publics {
   width: 40%;
   margin-top: 10vh;
-  margin-left: 490px;
 }
 
-#user-tweet {
-  border-radius: 18px;
+#user-publicar {
+  left: 90.5%;
   background-color: #E8F4FB;
   position: relative;
-  width: 100%;
-  margin-left: -46px;
+  width: 500px;
 }
 
-#user-tweet>div {
+#user-publicar>div {
   background-color: #EFEFEF;
   border: 1px solid #ffffff;
-  margin-left: 3%;
+  margin-left: 5%;
   padding: 2% 2.5%;
   position: absolute;
-  top: 10%;
+  top: 5%;
 }
 
-#user-tweet>form {
+#user-publicar>form {
   left: 12.5%;
   bottom: 10%;
   position: relative;
+  width: 400px;
   top: 0;
-  width: 80%;
+
 }
 
-#user-tweet>form>textarea {
+#user-publicar>form>textarea {
   border: 1px solid #c6e4f7;
-  background: white;
   border-radius: 10px;
   min-height: 15vh;
-  margin-top: 2vh;
+  margin-top: 2vh; 
   outline: none;
   overflow: hidden;
   padding: 2%;
-  padding-right: 5%;
+  padding-right: 5%; 
   resize: none;
   width: 100%;
 }
 
-#user-tweet>form>textarea[placeholder] {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-#user-tweet>form>span#btn-twittear {
+#user-publicar>form>span#btn-publicar {
   background-color: #52b8f3;
   border: 1px solid #52b8f3;
-  border-radius: 15px;
+  border-radius: 20px;
   color: white;
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
-  margin: 1%;
+  margin-left: 340px;
   margin-bottom: 2%;
   padding: 2% 3%;
 }
 
-.post-tweet {
-  background-color: white;
-  border-top: 1px solid #D3D3D3;
-  min-height: 8vh;
-  padding: 1.5%;
-  position: relative;
-  width: 150%;
-  right: 387px;
-  top: 155px;
-}
+/**/
 
-.post-tweet>h4 , .post-tweet>p{
-  bottom: 10%;
-  color : #3f3f3f;
-  left: 12.5%;
-  font-weight: bold;
-  font-size: 14px;  
-  position: relative;
-  top: 0;
-  width: 85%;
-}
-
-.post-tweet>h4>span , .post-tweet>p {
-  font-weight: normal;
-  font-size: 14px;
-} 
-
-#hours {
-  margin-left: 1.5%; 
-}
-
-.post-tweet>p {
-  margin-top: 1%; 
-  overflow: hidden;
-}
-
-.post {
-  display: block;
-  margin: auto;
-  position: absolute;
-  right: 11%;
-  width: 60%;
-}
-
-.parrafo {
-  text-align: center;
+.options {
+  position: absolute; 
+  margin-top: 19px;
 }

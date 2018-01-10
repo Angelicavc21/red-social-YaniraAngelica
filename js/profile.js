@@ -1,6 +1,16 @@
 $(document).ready(begin());
 
 function begin() {
+  // Initialize Firebase
+  var config = {
+    apiKey: 'AIzaSyBGma4OabZ5HXRN0jvM22IeY2qA8XRy7B0',
+    authDomain: 'team-angelica-yanira.firebaseapp.com',
+    databaseURL: 'https://team-angelica-yanira.firebaseio.com',
+    projectId: 'team-angelica-yanira',
+    storageBucket: 'team-angelica-yanira.appspot.com',
+    messagingSenderId: '428460099091'
+  };
+  firebase.initializeApp(config);
   //  Materialize
   $('.button-collapse').sideNav();
   $('.dropdown-button').dropdown({
@@ -16,7 +26,8 @@ function begin() {
   $('#textarea1').val('New Text');
   $('#textarea1').trigger('autoresize');
 
-  //  Capturando etiquetas con jquery
+  //  Habilitando post
+  var newDate = new Date();
   var $textarea = $('#icon_prefix2');
   var $containerPost = $('#container-post');
   var $btnPost = $('#btn-post');
@@ -28,12 +39,13 @@ function begin() {
           '<form class="col l10 offset-l1 offset-s1 s10">' +
             '<div class="row">' +
               '<div class="input-field col l11 s11">' +
-                '<i id="edit-btn" class="material-icons prefix">mode_edit</i>' +
+                '<i id="edit-btn" class="color-purple material-icons prefix">mode_edit</i>' +
                 '<textarea id="text-edit" class="materialize-textarea" disabled>' + $textPost + '</textarea>' +
                 '<div id="container-btn-save" class="row">' +
-                  '<span class="col l2 left"><i class="material-icons">thumb_up</i></span>' +
-                  '<span class="col l2 left"><i class="material-icons">favorite</i></span>' +
-                  '<span class="col l2 left"><i class="material-icons">fitness_center</i></span>' +
+                  '<span class="col l2 left"><i class="likes material-icons">thumb_up</i></span>' +
+                  '<span class="col l2 left"><i class="likes material-icons">favorite</i></span>' +
+                  '<span class="col l2 left"><i class="likes material-icons">fitness_center</i></span>' +
+                  '<span class="valign-wrapper col l2 right">' + newDate.getHours() + ':' + newDate.getMinutes() + '  ' + newDate.getFullYear() + '/' + (newDate.getMonth() + 1) + '/' + newDate.getDate() + '</span>' +
                 '</div>' +
               '</div>' +
             '</div>' +
@@ -53,4 +65,7 @@ function begin() {
       });
     }
   });
+  //  Habilitando botones seguir y agragar como amigo
+  var $follow = $('#follow');
+  var $addFriend = $('#add-friend');
 }
