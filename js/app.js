@@ -1,8 +1,14 @@
-$(".dropdown-button").dropdown();
-// efecto splash
-$(document).ready(function() {
-  setTimeout (function() {
-        window.location.href = 'views/news.html';
-  }, 3000);
-  });
+$('.dropdown-button').dropdown();
 
+jQuery(document).ready(function() {
+  $('.logo').animate({
+    'left': '+=5%'
+  }, 'slow');
+  $('h4').animate({
+    'font-size': 26,
+    'border-width': 5
+  }, 1800);
+  setTimeout(function() {
+    window.location.href = 'views/home.html';
+  }, 3000);
+});

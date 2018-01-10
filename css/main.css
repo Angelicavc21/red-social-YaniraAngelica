@@ -1,20 +1,39 @@
-/* EFECTO SPLASH */
-.pre-load {
-  border: 6px solid rgb(218, 205, 24);
-  border-top-color: rgb(113, 218, 53);
-  border-top-style: groove;
-  height: 60px;
-  width: 60px;
-  border-radius: 100%;
-  position: absolute;
-  left: 45%;
-  top: 60%;   
-  -webkit-animation: girar 1.5s linear infinite;
-  -o-animation:  girar 1.5s linear infinite;
-  animation:  girar 1.5s linear infinite;
+/* Vista Splash*/
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-@keyframes girar {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
+.splash {
+  background-color:#7B1FA2;
+  height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  width: 200px;
+}
+
+.box_text {
+  margin-top: 100px;
+  position: absolute;
+}
+
+/* Helpers */
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textcenter {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 85px;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.text-uppercase{
+  text-transform: uppercase;
 }
