@@ -15,6 +15,10 @@ El objetivo es crear una red social que tenga en cuenta algunos puntos básicos 
 
 ## Flujo de la aplicación
 
+##Scketch
+
+![Sin titulo](assets/docs/sketch.jpg)
+
 ## Planificación
 
 Se dividió el trabajo en etapas, las cuales se detallaron así:
@@ -31,9 +35,12 @@ Se dividió el trabajo en etapas, las cuales se detallaron así:
 
 - Se aplicó Firebase para almacenar la información de las publicaciones y del chat del usuario en una base de datos.
 
+
 ## webSite
-* Aquí se puede ver el Proyecto 
-(`https://angelicavc21.github.io/red-social-YaniraAngelica/´)
+
+* Aquí puedes visualizar el proyecto 
+
+(https://angelicavc21.github.io/red-social-YaniraAngelica/)
 
 ## Desarrollado con:
 
