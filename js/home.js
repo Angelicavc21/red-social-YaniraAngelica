@@ -1,7 +1,6 @@
-
-
   
-$(".signUp").click(function () {
-  window.location.href = 'signup.html';
+  
+  $(".signUp").click(function () {
+    window.location.href = 'signup.html';
 
-});
+  });
