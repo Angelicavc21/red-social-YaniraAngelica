@@ -1,66 +1,74 @@
-
-/* style SECTION COMPARTIR*/
-
-#publics {
-  width: 40%;
-  margin-top: 10vh;
+.capitalize {
+  text-transform: capitalize;
 }
 
-#user-publicar {
-  left: 90.5%;
-  background-color: #E8F4FB;
-  position: relative;
-  width: 500px;
+/*  header*/
+.border-nav {
+  border: 2px solid #7B1FA2;
+  border-radius: 5px;
+  color: #ffff;
 }
 
-#user-publicar>div {
-  background-color: #EFEFEF;
-  border: 1px solid #ffffff;
-  margin-left: 5%;
-  padding: 2% 2.5%;
-  position: absolute;
-  top: 5%;
+.purple {
+  box-shadow: 2px 2px 1px 1px #6a1b9a inset;
 }
 
-#user-publicar>form {
-  left: 12.5%;
-  bottom: 10%;
-  position: relative;
-  width: 400px;
-  top: 0;
+/*barra de perfil*/
 
+.img-user {
+  border: 2px solid gray;
+  border-radius: 50%;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  width: 100px;
 }
 
-#user-publicar>form>textarea {
-  border: 1px solid #c6e4f7;
-  border-radius: 10px;
-  min-height: 15vh;
-  margin-top: 2vh; 
-  outline: none;
-  overflow: hidden;
-  padding: 2%;
-  padding-right: 5%; 
-  resize: none;
-  width: 100%;
+.name-news {
+  color: #ffff;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
+/*posts*/
 
-#user-publicar>form>span#btn-publicar {
-  background-color: #52b8f3;
-  border: 1px solid #52b8f3;
-  border-radius: 20px;
-  color: white;
-  cursor: pointer;
+.border-post {
+  border-radius: 3px;
+  box-shadow: 0.2px 0.3px 5px gray inset;
   display: inline-block;
-  font-size: 14px;
-  margin-left: 340px;
-  margin-bottom: 2%;
-  padding: 2% 3%;
+  left: 4.5%;
+  margin-top: 10px;
+  padding-top: 35px;
+  position: relative;
+  width: 70%;
 }
 
-/**/
+.color-purple {
+  color: #4527A0;
+}
 
-.options {
-  position: absolute; 
-  margin-top: 19px;
+.color-purple:hover {
+  border-radius: 5px;
+  box-shadow: 0.2px 0.3px 10px gray inset;
+  color: #7B1FA2;
+  padding: 3px;
+}
+
+.likes:hover {
+  border-radius: 5px;
+  box-shadow: 0.2px 0.3px 10px gray inset;
+  color: #7B1FA2;
+  padding: 3px;
+}
+
+/*color de texto en botones*/
+
+.text-color {
+  color: #ffff;
+}
+
+label.text-color::before {
+  border: 1.5px solid #ffff;
+  border-radius: 4px;
 }

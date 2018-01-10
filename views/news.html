@@ -10,84 +10,70 @@
   <link rel="stylesheet" href="../css/news.css">
 </head>
 <body>
-  
-  <!-- Dropdown Structure -->
-<ul id="dropdown1" class="dropdown-content">
-  <li><a href="#!">configuración</a></li>
-  <li><a href="#!">salir</a></li>
-</ul>
-<nav>
-  <div class="nav-wrapper">
-    <a href="#!" class="brand-logo">Logo</a>
-    <ul class="right hide-on-med-and-down">
-      <li><a href="sas.html">Noticias</a></li>
-      <li><a href="badgs.html">Herramientas</a></li>
-      <!-- Dropdown Trigger -->
-      <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right">expand_more</i></a></li>
-    </ul>
-  </div>
-</nav>
-<div>
-<ul id="slide-out" class="side-nav">
-    <li><div class="user-view">
-      <div class="background">
-        <img src="../assets/images/paisaje1.jpg">
-      </div>
-      <a href="#!user"><img class="circle" src="../assets/images/usuario.jpg"></a>
-      <a href="#!name"><span class="white-text name">John Doe</span></a>
-      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-    </div>
-   </li>
-   <!--¡Cuentanos como te va hoy!-->
-    <li><a href="#!"><i class="material-icons">mood</i>¡Cuentanos como te va hoy!</a></li>
-    <div class="post">
-        <textarea id="text" rows="2" placeholder="¿Qué esta pasando?"></textarea>
-        <button id="btn" type="button" name="btn">Publicar</button>
-        <span class="counter"></span>
-      </div>
-      <div class="container-publicar">
-      </div>
-    <li><a class="btn-floating green"><i class="material-icons">people</i>grupos</a></li>
-    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-  </ul>
-  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-</div>
-<!--filtrado-->
-  <label>Filtrar por</label>
-  <select class="browser-default">
-    <option value="" disabled selected>Choose your option</option>
-    <option value="1">Option 1</option>
-    <option value="2">Option 2</option>
-    <option value="3">Option 3</option>
-  </select>
-
-  <section id="publics">
-      <div id="user-publicar">
-        <div class="border-circle">
-          <i class="person"></i>
+  <header>
+    <!-- Menú -->
+    <nav class="purple darken-2">
+      <div class="container nav-wrapper">
+        <a href="#!" class="brand-logo">Logo</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <div>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="border-nav purple lighten-1 waves-effect waves-light btn">Noticias</a></li>
+            <li><a class="border-nav purple lighten-1 waves-effect waves-light btn">Herramientas</a></li>
+            <li><a class="border-nav purple lighten-1 waves-effect waves-light btn">Perfil</a></li>
+            <li><a class="border-nav purple lighten-1 waves-effect waves-light btn dropdown-button" data-beloworigin="true" href='#' data-activates='dropdown1'><i class="material-icons">arrow_drop_down_circle</i></a></li>
+            <!-- Dropdown Structure -->
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#!">Config.</a></li>
+              <li class="divider"></li>
+              <li><a href="#!">Salir</a></li>
+            </ul>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="sass.html">Noticias</a></li>
+            <li><a href="badges.html">Herramientas</a></li>
+            <li><a href="collapsible.html">Perfil</a></li>
+            <li><a href="mobile.html">Salir</a></li>
+          </ul>
         </div>
-        <form action="">
-          <textarea name="publicar-user" id="publicar" placeholder="¿Qué está pasando?"></textarea>
-          <span id="btn-publicar">Publicar</span>
+      </div>
+    </nav>
+  </header>
+  <section class="container">
+    <div class="row">
+      <div class="col s12 l3">
+        <div class="card-panel teal">
+          <div id="photo-user" class="img-user"></div>
+          <h5 id="name-user" class="name-news">Yanira</h5>
+          <div class="collection">
+            <a href="#!" class="collection-item"><span class="badge">1</span>Grupos</a>
+            <a href="#!" class="collection-item"><span class="new badge">4</span>Amigos</a>
+            <a href="#!" class="collection-item">Logros</a>
+            <a href="#!" class="collection-item"><span class="badge">14</span>Eventos</a>
+            <a href="#!" class="collection-item"><span class="badge">14</span>Cumpleaños</a>
+          </div>
+        </div>
+      </div>
+      <div class="border-post row">
+        <form class="col l10 offset-l1 offset-s1 s11">
+          <div class="row">
+            <div class="input-field col l10 s11">
+              <i class="color-purple material-icons prefix">mode_edit</i>
+              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+              <label for="icon_prefix2">¿Qué hay de nuevo?</label>
+              <div class="row">
+                <span class="col l2 left"><i class="color-purple small material-icons">add_a_photo</i></span>
+                <button id="btn-post" class="col l3 right waves-light btn" type="button" name="button">Compartir</button>
+              </div>
+            </div>
+          </div>
         </form>
       </div>
-    </section>
-    <section>
-      <div class="options">
-          <div class="fixed-action-btn horizontal click-to-toggle">
-              <a class="btn-floating btn-large red">
-                <i class="material-icons">menu</i>
-              </a>
-              <ul>
-                <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-                <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-                <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-                <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-              </ul>
-            </div>
+      <div id="container-post" class="border-post row">
+
       </div>
-    </section>
+    </div>
+  </section>
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="../vendors/materialize/js/materialize.js"></script>
 <script src="../js/news.js"></script>
