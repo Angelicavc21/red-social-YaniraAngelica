@@ -1,0 +1,144 @@
+/*Estilos*/
+body {
+	font-family: 'Raleway', sans-serif !important;
+	color: rgb(0, 0, 0);
+}
+
+vh100 {
+	height: 100%;
+}
+
+.grad70 {
+	background: linear-gradient(rgb(134, 21, 147) 65%, rgb(225, 42, 213));	
+}
+
+.container-flex-column {
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   padding: 2em;
+   height: 100vh;
+}
+
+.logo {
+   width: 50%;
+   margin-left: 75px;
+}
+
+.logo-little {
+    width: 20%;
+    margin-left: 150px;
+    margin-top: 400px;
+}
+
+.logo-big {
+    width: 55%;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: rgba(29, 25, 33, 0.515);
+    border-color: #000000;
+}
+
+.btn {
+   margin-left: 45px;
+   display: inline-block;
+   padding: 6px 12px;
+   font-size: 14px;
+   text-align: center;
+   border: 1px solid;
+   border-radius: 4px;
+   text-decoration: none;
+}
+
+.fondo-register {
+  background-image: url('../assets/img/portada.gif');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.img-white-small {
+  width: 25%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.margin {
+    margin: 80px 0;
+}
+
+
+/*Estilos para inicio*/
+
+nav i.material-icons {
+  display: block;
+  font-size: 38px;
+  height: 56px;
+  line-height: 38px;
+}
+
+.banderas {
+  width: 30%;
+}
+
+.min-width {
+  min-width: 0px;
+}
+
+.dropdown-content li {
+  min-height: 30px;
+  margin-top: 5px;
+}
+
+.btn i {
+transform: rotate(90deg);
+}
+
+.space {
+  margin: 30px 0;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+.car {
+  width: 80%;
+}
+
+.btn-next {
+  background: linear-gradient(to bottom right, #530060, #e19);
+  text-transform: capitalize;
+}
+/*Estilos singnup2*/
+
+.icon-user {
+  margin-top: 15px;
+  right: -20px;
+}
+
+#check p:last-child {
+  margin-bottom: 0;
+  width: 200px;
+}
+
+/*Estilos de aceptación*/
+.check {
+  width: 120px;
+  margin-left: 110px;
+}
+.check-finish {
+  margin-left: 50px;	
+}
+
+.grad {
+  background: linear-gradient(rgb(134, 21, 147) 65%, rgb(225, 42, 213));	
+}
