@@ -14,13 +14,13 @@
     <!-- Menú -->
     <nav class="purple darken-2">
       <div class="container nav-wrapper">
-        <a href="#!" class="brand-logo">Logo</a>
+        <a href="news.html" class="brand-logo">Logo</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <div>
           <ul class="right hide-on-med-and-down">
-            <li><a class="border-nav purple lighten-1 waves-effect waves-light btn">Noticias</a></li>
+            <li><a href="news.html" class="border-nav purple lighten-1 waves-effect waves-light btn">Noticias</a></li>
             <li><a class="border-nav purple lighten-1 waves-effect waves-light btn">Herramientas</a></li>
-            <li><a class="border-nav purple lighten-1 waves-effect waves-light btn">Perfil</a></li>
+            <li><a href="profile.html" class="border-nav purple lighten-1 waves-effect waves-light btn">Perfil</a></li>
             <li><a class="border-nav purple lighten-1 waves-effect waves-light btn dropdown-button" data-beloworigin="true" href='#' data-activates='dropdown1'><i class="material-icons">arrow_drop_down_circle</i></a></li>
             <!-- Dropdown Structure -->
             <ul id='dropdown1' class='dropdown-content'>
@@ -43,7 +43,7 @@
   <section class="center-align container">
     <div class="container-user card center-align">
       <div class="user-image card-image waves-effect waves-block waves-light">
-        <img class="activator" src="../assets/images/user.ico">
+        <a href="profile.html" id="photo-user" class="img-user"></a>
       </div>
       <div class="card-content">
         <span class="card-title activator grey-text text-darken-4">Nombre (nickname)</span>
@@ -130,14 +130,24 @@
   <section class="center-align container">
     <div class="container-user card center-align">
       <div class="border-post row">
-        <form class="col l10 offset-l1 offset-s1 s10">
+        <form class="col l10 offset-l1 offset-s1 s11">
           <div class="row">
-            <div class="input-field col l11 s11">
+            <div class="input-field col l10 s11">
               <i class="color-purple material-icons prefix">mode_edit</i>
               <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
               <label for="icon_prefix2">¿Qué hay de nuevo?</label>
               <div class="row">
-                <span class="col l2 left"><i class="color-purple small material-icons">add_a_photo</i></span>
+                <form action="#">
+                  <div class="btn-add-photo col s3 l3 file-field input-field">
+                    <div class="btn">
+                      <span><i class="small material-icons">add_a_photo</i></span>
+                      <input type="file" multiple>
+                    </div>
+                    <div class="width-line file-path-wrapper">
+                      <input class="file-path validate" type="text">
+                    </div>
+                  </div>
+                </form>
                 <button id="btn-post" class="col l3 right waves-light btn" type="button" name="button">Compartir</button>
               </div>
             </div>

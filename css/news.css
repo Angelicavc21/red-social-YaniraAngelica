@@ -14,10 +14,14 @@
 }
 
 /*barra de perfil*/
+.card-panel {
+  width: 100%;
+}
 
 .img-user {
   border: 2px solid gray;
   border-radius: 50%;
+  display: block;
   height: 100px;
   margin: auto;
   margin-bottom: 20px;
@@ -32,16 +36,19 @@
 }
 
 /*posts*/
+.container-user {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
 
 .border-post {
   border-radius: 3px;
   box-shadow: 0.2px 0.3px 5px gray inset;
   display: inline-block;
-  left: 4.5%;
   margin-top: 10px;
   padding-top: 35px;
   position: relative;
-  width: 70%;
+  width: 90%;
 }
 
 .color-purple {
@@ -71,4 +78,25 @@
 label.text-color::before {
   border: 1.5px solid #ffff;
   border-radius: 4px;
+}
+
+/*container de likes, force, love*/
+.text-purple {
+  color: #7B1FA2;
+}
+
+/*hidden*/
+.hidden {
+  display: none;
+}
+
+.width-line {
+  display: inline-block;
+  width: 0;
+}
+
+.btn-add-photo {
+  height: 40px;
+  padding: 0;
+  margin: 0;
 }
