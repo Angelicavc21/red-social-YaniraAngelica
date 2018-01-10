@@ -1,4 +1,4 @@
-# ** Red Social **
+# **Red Social**
 * **Unidad5:** _CREA TU PROPIA RED SOCIAL_
 
 ***
