@@ -15,7 +15,7 @@ El objetivo es crear una red social que tenga en cuenta algunos puntos básicos 
 
 ## Flujo de la aplicación
 
-##Scketch
+## Scketch
 
 ![Sin titulo](assets/docs/sketch.jpg)
 
@@ -32,8 +32,6 @@ Se dividió el trabajo en etapas, las cuales se detallaron así:
 ## Observaciones
 
 - Se utilizó Firebase para realizar la autenticación del usuario mediante el acceso de Google.
-
-- Se aplicó Firebase para almacenar la información de las publicaciones y del chat del usuario en una base de datos.
 
 
 ## webSite
