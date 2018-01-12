@@ -26,16 +26,16 @@
             <li><a class="border-nav purple lighten-1 waves-effect waves-light btn dropdown-button" data-beloworigin="true" href='#' data-activates='dropdown1'><i class="material-icons">arrow_drop_down_circle</i></a></li>
             <!-- Dropdown Structure -->
             <ul id='dropdown1' class='dropdown-content'>
-              <li><a href="#!">Config.</a></li>
+              <li><a href="#">Config.</a></li>
               <li class="divider"></li>
-              <li><a href="#!">Salir</a></li>
+              <li><a id="out" href="login.html">Salir</a></li>
             </ul>
           </ul>
           <ul class="side-nav" id="mobile-demo">
-            <li><a href="sass.html">Noticias</a></li>
-            <li><a href="badges.html">Herramientas</a></li>
-            <li><a href="collapsible.html">Perfil</a></li>
-            <li><a href="mobile.html">Salir</a></li>
+            <li><a href="news.html">Noticias</a></li>
+            <li><a href="#">Herramientas</a></li>
+            <li><a href="profile.html">Perfil</a></li>
+            <li><a id="out" href="login.html">Salir</a></li>
           </ul>
         </div>
       </div>
@@ -46,7 +46,7 @@
       <div class="col s12 l3">
         <div class="card-panel teal">
           <a href="profile.html" id="photo-user" class="img-user"></a>
-          <h5 id="name-user" class="name-news">Yanira</h5>
+          <h5 id="name-user" class="name-news"></h5>
           <div class="collection">
             <a href="#!" class="collection-item"><span class="badge">1</span>Grupos</a>
             <a href="#!" class="collection-item"><span class="new badge">4</span>Amigos</a>
@@ -92,6 +92,7 @@
   </section>
 
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
 <script src="../vendors/materialize/js/materialize.js"></script>
 <script src="../js/news.js"></script>
 </body>

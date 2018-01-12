@@ -19,10 +19,8 @@ function begin() {
     firebase.auth().signInWithPopup(provider).then(function(result) {
       console.log(result.user);
       saveData(result.user);
-      $('#login').hide();
-      $('#root').append('<img src="' + result.user.photoURL + '">');
+      window.location.href = '../views/news.html';
     });
-    window.location.href = '../views/news.html';
   });
   //  Esta funcion guarda automaticamente los datos
   function saveData(user) {

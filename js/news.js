@@ -1,6 +1,48 @@
 $(document).ready(begin());
 function begin() {
+  // Initialize Firebase
+  var config = {
+    apiKey: 'AIzaSyB6CEIO9s4qhe5MIIlGV0PLkVVdvguZVA4',
+    authDomain: 'team-angelica-yanira-c5297.firebaseapp.com',
+    databaseURL: 'https://team-angelica-yanira-c5297.firebaseio.com',
+    projectId: 'team-angelica-yanira-c5297',
+    storageBucket: 'team-angelica-yanira-c5297.appspot.com',
+    messagingSenderId: '1074437310056'
+  };
+  firebase.initializeApp(config);
+  //  Esta funcion guarda automaticamente los datos
+  function saveData(user) {
+    var realUser = {
+      uid: user.uid,
+      nombre: user.displayName,
+      email: user.email,
+      foto: user.photoURL
+    };
+    firebase.database().ref('team/' + user.uid).set(realUser);
+  }
+
+  //  Aquí estoy leyendo la Base de datos
+  firebase.database().ref('team').on('child_added', function(data) {
+    var user = data.val();
+    console.log(user.uid);
+    $('#photo-user').append('<img class="photo-url" src="' + user.foto + '">');
+    $('#name-user').text(user.nombre);
+    $('#out').on('click', function() {
+      firebase.database().ref('team/' + user.uid).remove();
+    });
+  });
   //  Materialize
+  $('.button-collapse').sideNav();
+  $('.dropdown-button').dropdown({
+    inDuration: 300,
+    outDuration: 225,
+    constrainWidth: false, // Does not change width of dropdown to that of the activator
+    hover: true, // Activate on hover
+    gutter: 0, // Spacing from edge
+    belowOrigin: false, // Displays dropdown below the button
+    alignment: 'left', // Displays dropdown with edge aligned to the left of button
+    stopPropagation: false // Stops event propagation
+  });
   $('#textarea1').val('New Text');
   $('#textarea1').trigger('autoresize');
   //  Habilitando post

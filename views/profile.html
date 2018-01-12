@@ -26,16 +26,16 @@
             <li><a class="border-nav purple lighten-1 waves-effect waves-light btn dropdown-button" data-beloworigin="true" href='#' data-activates='dropdown1'><i class="material-icons">arrow_drop_down_circle</i></a></li>
             <!-- Dropdown Structure -->
             <ul id='dropdown1' class='dropdown-content'>
-              <li><a href="#!">Config.</a></li>
+              <li><a href="#">Config.</a></li>
               <li class="divider"></li>
-              <li><a href="#!">Salir</a></li>
+              <li><a id="out" href="login.html">Salir</a></li>
             </ul>
           </ul>
           <ul class="side-nav" id="mobile-demo">
-            <li><a href="sass.html">Noticias</a></li>
-            <li><a href="badges.html">Herramientas</a></li>
-            <li><a href="collapsible.html">Perfil</a></li>
-            <li><a href="mobile.html">Salir</a></li>
+            <li><a href="news.html">Noticias</a></li>
+            <li><a href="#">Herramientas</a></li>
+            <li><a href="profile.html">Perfil</a></li>
+            <li><a id="out" href="login.html">Salir</a></li>
           </ul>
         </div>
       </div>
@@ -45,10 +45,10 @@
   <section class="center-align container">
     <div class="container-user card center-align">
       <div class="user-image card-image waves-effect waves-block waves-light">
-        <a href="profile.html" id="photo-user" class="img-user"></a>
+        <a href="#" id="photo-user" class="user-image"></a>
       </div>
       <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">Nombre (nickname)</span>
+        <span id="name-user" class="card-title activator grey-text text-darken-4"></span>
         <a id="follow" class="btn-follow waves-effect waves-light btn">
           <form action="#">
             <p>

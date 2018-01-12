@@ -16,7 +16,7 @@
 /* Logo Team */
 .brand-logo {
   font-family: 'Cabin Sketch', cursive;
-} 
+}
 
 /*barra de perfil*/
 .card-panel {
@@ -104,4 +104,10 @@ label.text-color::before {
   height: 40px;
   padding: 0;
   margin: 0;
+}
+
+/*Firebase*/
+
+.photo-url {
+  width: 100px;
 }
