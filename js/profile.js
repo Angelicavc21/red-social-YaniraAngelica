@@ -21,7 +21,6 @@ function begin() {
     };
     firebase.database().ref('team/' + user.uid).set(realUser);
   }
-
   //  Aquí estoy leyendo la Base de datos
   firebase.database().ref('team').on('child_added', function(data) {
     var user = data.val();
