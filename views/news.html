@@ -98,11 +98,8 @@
 <script src="../js/news.js"></script>
 </body>
 </html>
-
-
-
-
 <form action="">
+  <ul class="mess" id="chatUl"></ul>
   <div class="conversacion">
       <label for="nombre">Nombre</label>
       <input type="text" id="nombre">
@@ -111,10 +108,8 @@
       <label for="mensaje">Mensaje</label>
       <textarea id="mensaje"></textarea>
   </div>
-  <button type="button" id="btnEnviar">Enviar</button>
-  </form>
-  <ul class="mess" id="chatUl"></ul>
-  
+  <button class="btn-chat" type="button" id="btnEnviar">Enviar</button>
+</form>  
 <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
 <script>
 // Initialize Firebase

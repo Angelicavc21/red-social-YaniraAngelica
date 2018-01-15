@@ -121,3 +121,12 @@ label.text-color::before {
   margin-left: 400px;
 }
 
+.chat {
+  width: 100%;
+}
+
+.btn-chat {
+  width: 50%;
+  margin-left: 400px;
+  margin-bottom: 20px;
+}
