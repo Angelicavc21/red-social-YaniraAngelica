@@ -111,3 +111,13 @@ label.text-color::before {
 .photo-url {
   width: 100px;
 }
+
+.conversacion {
+  width: 50%;
+  margin-left: 400px;
+}
+
+.mess {
+  margin-left: 400px;
+}
+
