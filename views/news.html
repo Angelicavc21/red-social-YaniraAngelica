@@ -16,7 +16,7 @@
     <!-- Menú -->
     <nav class="purple darken-2">
       <div class="container nav-wrapper">
-        <a href="news.html" class="brand-logo">Team</a>
+        <a href="news.html" class="brand-logo">Yes, I can</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <div>
           <ul class="right hide-on-med-and-down">
@@ -55,6 +55,18 @@
             <a href="#!" class="collection-item"><span class="badge">14</span>Birthday</a>
           </div>
         </div>
+        <form class="form-chat" action="">
+          <ul class="mess" id="chatUl"></ul>
+          <div class="conversacion">
+              <label class="label-chat" for="nombre">Nombre</label>
+              <input type="text" id="nombre">
+          </div>
+          <div class="conversacion">
+              <label class="label-chat" for="mensaje">Mensaje</label>
+              <textarea id="mensaje"></textarea>
+          </div>
+          <button class="btn-chat" type="button" id="btnEnviar">Enviar</button>
+        </form> 
       </div>
       <!--posts-->
       <section class="right container">
@@ -97,19 +109,7 @@
 <script src="../vendors/materialize/js/materialize.js"></script>
 <script src="../js/news.js"></script>
 </body>
-</html>
-<form action="">
-  <ul class="mess" id="chatUl"></ul>
-  <div class="conversacion">
-      <label for="nombre">Nombre</label>
-      <input type="text" id="nombre">
-  </div>
-  <div class="conversacion">
-      <label for="mensaje">Mensaje</label>
-      <textarea id="mensaje"></textarea>
-  </div>
-  <button class="btn-chat" type="button" id="btnEnviar">Enviar</button>
-</form>  
+</html> 
 <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
 <script>
 // Initialize Firebase

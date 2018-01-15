@@ -113,20 +113,23 @@ label.text-color::before {
 }
 
 .conversacion {
-  width: 50%;
-  margin-left: 400px;
+  width: 100%;
 }
 
 .mess {
-  margin-left: 400px;
-}
-
-.chat {
-  width: 100%;
+  width: 90%;
 }
 
 .btn-chat {
   width: 50%;
-  margin-left: 400px;
   margin-bottom: 20px;
+}
+
+.label-chat {
+  margin-left: 3%;
+}
+
+.form-chat {
+  background: #e3f2fd;
+  padding: 25px;
 }
