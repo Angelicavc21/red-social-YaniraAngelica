@@ -19,6 +19,12 @@ El objetivo es crear una red social que tenga en cuenta algunos puntos básicos 
 
 ![Sin titulo](assets/docs/sketch.JPG)
 
+![Sin titulo](assets/docs/1.JPEG)
+
+![Sin titulo](assets/docs/2.JPEG)
+
+![Sin titulo](assets/docs/3.JPEG)
+
 ## Planificación
 
 Se dividió el trabajo en etapas, las cuales se detallaron así:
@@ -36,7 +42,7 @@ Se dividió el trabajo en etapas, las cuales se detallaron así:
 
 ## webSite
 
-* Aquí puedes visualizar el proyecto 
+* Aquí puedes visualizar el proyecto
 
 (https://angelicavc21.github.io/red-social-YaniraAngelica/)
 
@@ -46,5 +52,5 @@ Se dividió el trabajo en etapas, las cuales se detallaron así:
 
 ***
 ## Colaboradoras
-* Yanira Arenazas 
+* Yanira Arenazas
 * Angelica Villalobos
