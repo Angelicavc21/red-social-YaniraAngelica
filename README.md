@@ -19,11 +19,11 @@ El objetivo es crear una red social que tenga en cuenta algunos puntos básicos 
 
 ![Sin titulo](assets/docs/sketch.JPG)
 
-![Sin titulo](assets/docs/1.JPEG)
+![Sin titulo](assets/docs/1.jpeg)
 
-![Sin titulo](assets/docs/2.JPEG)
+![Sin titulo](assets/docs/2.jpeg)
 
-![Sin titulo](assets/docs/3.JPEG)
+![Sin titulo](assets/docs/3.jpeg)
 
 ## Planificación
 
