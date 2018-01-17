@@ -17,7 +17,7 @@ El objetivo es crear una red social que tenga en cuenta algunos puntos básicos 
 
 ## Scketch
 
-![Sin titulo](assets/docs/sketch.JPG)
+ ![skeatch](assets/docs/scketch.JPG)
 
 ![Sin titulo](assets/docs/1.JPG)
 
